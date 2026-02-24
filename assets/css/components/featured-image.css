@@ -1,0 +1,20 @@
+/* assets/css/components/featured-image.css */
+.featured-image {
+  width: 100%;
+  border-radius: 24px;
+  margin: 2rem 0 2.5rem 0;
+  border: 1px solid var(--border-dim);
+  background: #1e1b22;
+  box-shadow: 0 15px 25px -10px #000000cc;
+}
+
+.featured-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 24px;
+  object-fit: cover;
+  aspect-ratio: 16 / 9;
+  background: #2c2a31;
+  color: #aaa;
+}

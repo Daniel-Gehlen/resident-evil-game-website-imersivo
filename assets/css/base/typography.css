@@ -1,0 +1,36 @@
+/* assets/css/base/typography.css */
+h1,
+h2,
+h3 {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+
+h1 {
+  font-size: 3.2rem;
+  line-height: 1.1;
+  color: var(--accent-red);
+  text-shadow: 0 2px 8px #3a1a1a;
+  margin-bottom: 0.4rem;
+}
+
+p {
+  margin: 1.8rem 0;
+  color: #dedad6;
+}
+
+a {
+  color: var(--link-blue);
+  text-decoration: underline wavy var(--accent-red) 1px;
+  text-underline-offset: 5px;
+  font-weight: 500;
+  transition:
+    color 0.2s,
+    text-decoration-color 0.2s;
+}
+
+a:hover {
+  color: #ffdeb3;
+  text-decoration-color: var(--accent-gold);
+}

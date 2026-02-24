@@ -1,0 +1,22 @@
+/* assets/css/components/footer.css */
+.small-note {
+  font-size: 0.9rem;
+  color: #9f9aa7;
+  text-align: right;
+}
+
+footer {
+  max-width: var(--max-width);
+  width: 100%;
+  margin-top: 1rem;
+  color: #5e5b64;
+  text-align: center;
+  font-size: 0.85rem;
+  border-top: 1px dashed #3a2f2f;
+  padding-top: 2rem;
+}
+
+footer p {
+  margin: 0.3rem 0;
+  color: #5e5b64;
+}

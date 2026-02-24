@@ -1,0 +1,27 @@
+/* assets/css/components/graphic.css */
+.graphic-block {
+  background: linear-gradient(145deg, #1f1c24, #151218);
+  border: 1px solid #543e3e;
+  border-radius: 30px;
+  padding: 2.5rem 2rem;
+  margin: 3rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  box-shadow: 0 10px 18px #00000066;
+}
+
+.graphic-block svg {
+  max-width: 100%;
+  height: auto;
+}
+
+.graphic-caption {
+  color: var(--accent-gold);
+  font-weight: 500;
+  margin-top: 1.5rem;
+  font-size: 1rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}

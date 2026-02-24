@@ -1,0 +1,17 @@
+/* assets/css/base/variables.css */
+:root {
+  --bg-site: #0c0b0e;
+  --bg-card: #1a171c;
+  --primary-text: #e8e4e0;
+  --accent-red: #b43b3b;
+  --accent-red-hover: #9f2f2f;
+  --accent-gold: #c9a45b;
+  --border-dim: #3e3a44;
+  --quote-bg: #231f28;
+  --input-bg: #2b272f;
+  --link-blue: #7ab7d0;
+  --max-width: 1000px;
+  --font-serif: "Georgia", "Times New Roman", serif;
+  --font-sans:
+    "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}

@@ -1,0 +1,11 @@
+/* assets/css/components/header.css */
+.subtitulo {
+  font-size: 1.5rem;
+  color: var(--accent-gold);
+  font-family: var(--font-serif);
+  font-style: italic;
+  border-bottom: 2px solid var(--accent-red);
+  padding-bottom: 1rem;
+  margin-bottom: 2rem;
+  display: inline-block;
+}

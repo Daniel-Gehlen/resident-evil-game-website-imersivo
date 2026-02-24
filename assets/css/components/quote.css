@@ -1,0 +1,37 @@
+/* assets/css/components/quote.css */
+.quote-block {
+  background: var(--quote-bg);
+  border-left: 8px solid var(--accent-red);
+  border-radius: 20px 8px 8px 20px;
+  padding: 2rem 2.5rem;
+  margin: 2.8rem 0;
+  font-family: var(--font-serif);
+  font-size: 1.5rem;
+  line-height: 1.5;
+  font-style: italic;
+  color: #f0e7d8;
+  box-shadow: 0 10px 20px -5px #00000080;
+  quotes: "“" "”" "‘" "’";
+}
+
+.quote-block::before {
+  content: "“";
+  font-size: 4rem;
+  color: var(--accent-red);
+  font-family: serif;
+  line-height: 0.8;
+  margin-right: 0.2rem;
+  vertical-align: middle;
+  opacity: 0.7;
+}
+
+.quote-block::after {
+  content: "”";
+  font-size: 4rem;
+  color: var(--accent-red);
+  font-family: serif;
+  line-height: 0;
+  vertical-align: middle;
+  opacity: 0.7;
+  margin-left: 0.2rem;
+}

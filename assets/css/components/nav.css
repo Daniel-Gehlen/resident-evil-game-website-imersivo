@@ -1,0 +1,27 @@
+/* assets/css/components/nav.css */
+.nav-links {
+  display: flex;
+  gap: 2rem;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin: 2rem 0 1rem 0;
+  padding: 1rem 0;
+  border-bottom: 1px dashed var(--accent-red);
+}
+
+.nav-links a {
+  font-size: 1.1rem;
+  text-decoration: none;
+  background: #2b2730;
+  padding: 0.4rem 1.2rem;
+  border-radius: 40px;
+  border: 1px solid #594545;
+  color: #ece5d8;
+  transition: all 0.15s;
+}
+
+.nav-links a:hover {
+  background: var(--accent-red);
+  color: white;
+  border-color: var(--accent-red);
+}

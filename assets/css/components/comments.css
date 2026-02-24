@@ -1,0 +1,95 @@
+/* assets/css/components/comments.css */
+.comments-section {
+  margin-top: 4rem;
+  border-top: 4px double var(--accent-red);
+  padding-top: 2rem;
+  background: var(--bg-site);
+  border-radius: 0 0 28px 28px;
+}
+
+.comments-title {
+  font-size: 1.8rem;
+  font-family: var(--font-serif);
+  color: var(--accent-gold);
+  margin-bottom: 1.5rem;
+}
+
+.comment-list {
+  list-style: none;
+}
+
+.comment-item {
+  background: #1e1b24;
+  border-radius: 20px;
+  padding: 1.5rem;
+  margin-bottom: 1rem;
+  border: 1px solid #443c3c;
+}
+
+.comment-author {
+  font-weight: bold;
+  color: var(--accent-red);
+}
+
+.comment-date {
+  font-size: 0.85rem;
+  color: #a89f9f;
+  margin-left: 1rem;
+}
+
+.comment-text {
+  margin-top: 0.6rem;
+  font-size: 1rem;
+}
+
+.comment-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.comment-form input,
+.comment-form textarea {
+  background: var(--input-bg);
+  border: 1px solid var(--border-dim);
+  border-radius: 40px;
+  padding: 1rem 1.5rem;
+  font-family: var(--font-sans);
+  font-size: 1rem;
+  color: white;
+  transition: border 0.2s;
+}
+
+.comment-form textarea {
+  border-radius: 30px;
+  resize: vertical;
+  min-height: 120px;
+}
+
+.comment-form input:focus,
+.comment-form textarea:focus {
+  border-color: var(--accent-red);
+  outline: none;
+}
+
+.comment-form button {
+  background: var(--accent-red);
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 60px;
+  font-weight: bold;
+  font-size: 1.25rem;
+  cursor: pointer;
+  align-self: flex-start;
+  transition:
+    background 0.2s,
+    transform 0.1s;
+  border: 1px solid #ad5e5e;
+}
+
+.comment-form button:hover {
+  background: var(--accent-red-hover);
+  transform: scale(1.02);
+}

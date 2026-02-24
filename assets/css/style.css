@@ -1,0 +1,26 @@
+/* assets/css/style.css - Arquivo principal que importa todos os módulos */
+@import url("base/variables.css");
+@import url("base/reset.css");
+@import url("base/typography.css");
+@import url("components/header.css");
+@import url("components/nav.css");
+@import url("components/featured-image.css");
+@import url("components/quote.css");
+@import url("components/graphic.css");
+@import url("components/video.css");
+@import url("components/comments.css");
+@import url("components/footer.css");
+
+/* Estilos adicionais que não se encaixam em módulos específicos */
+.container {
+  max-width: var(--max-width);
+  width: 100%;
+  background-color: var(--bg-card);
+  border-radius: 28px;
+  box-shadow:
+    0 20px 40px rgba(0, 0, 0, 0.7),
+    0 0 0 1px rgba(180, 60, 60, 0.2) inset;
+  overflow: hidden;
+  padding: 2.5rem 2.8rem;
+  border: 1px solid #3e2e2e30;
+}
