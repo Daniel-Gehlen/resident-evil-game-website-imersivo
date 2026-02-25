@@ -10,11 +10,10 @@
 
 .featured-image img {
   width: 100%;
-  height: auto;
+  height: auto; /* altura automática mantém proporção */
   display: block;
   border-radius: 24px;
-  object-fit: cover;
-  aspect-ratio: 16 / 9;
+  object-fit: scale-down; /* garante que a imagem inteira apareça */
   background: #2c2a31;
   color: #aaa;
 }
