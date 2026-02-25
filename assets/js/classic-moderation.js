@@ -201,11 +201,11 @@
           ip: userIP,
           userAgent: navigator.userAgent,
         });
-        showMessage(
-          "Comportamento suspeito detectado. Algumas funcionalidades podem ser limitadas.",
-          "warning",
-          8000,
-        );
+        // showMessage(
+        //   "Comportamento suspeito detectado. Algumas funcionalidades podem ser limitadas.",
+        //   "warning",
+        //   8000,
+        // );
       }
 
       // Em produção, enviar IP para backend para verificação em lista negra
