@@ -2,6 +2,8 @@
 
 Este é um site dedicado à franquia Resident Evil Game por fã, desenvolvido com design imersivo, conteúdo longo e elementos visuais entremeados, seguindo rigorosamente as especificações do wireframe fornecido.
 
+![](assets/css/images/resident.gif)
+
 ## Estrutura de Arquivos
 
 ```markdown
