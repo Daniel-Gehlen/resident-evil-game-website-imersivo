@@ -38,7 +38,7 @@ resident-evil-site/
 - ✅ **Nomenclatura consistente** - mesmos nomes de classes em toda a estrutura
 - ✅ **Paleta de cores Resident Evil** - vermelho acento (#b43b3b), fundos escuros, dourado (#c9a45b)
 - ✅ **Acessibilidade visual** - contraste adequado (WCAG AA), foco visível
-- ✅ **Vídeos oficiais embedados** - todos de canais oficiais (Capcom/PlayStation)
+- ✅ **Vídeos oficiais e de fãs embedados** - todos de canais oficiais (Capcom/PlayStation) e de fãs.
 - ✅ **Elementos do wireframe**:
   - Título e subtítulo
   - Imagem de abertura
